@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Music Player</h1>
+        <audio id="audio-player" controls>
+            <source src="" type="audio/mp3">
+        </audio>
+        <ul id="playlist">
+            <!-- Add your songs as list items here -->
+            <!-- Each list item should have a data-src attribute with the song URL -->
+            <!-- Like This:-->
+            <li data-src="GTA San Andreas Theme"><a href="Songs/GTA San Andreas Theme.mp3">Song 1</a></li>
+            <li data-src="GTA IV Theme"><a href="Songs/Soviet Connection.mp3">Song 2</a></li>
+            <li data-src="GTA V Theme"><a href="Songs/Welcome To Los  Santos.mp3">Song 3</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
